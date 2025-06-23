@@ -11,22 +11,23 @@ Para poder lograr este objetivo podemos divir en siguientes áreas:
 ## Nombrado:
 La autodocumentación parte del como nombramos nuestras clases, los métodos, paquetes, etc. Pero haré hincapié en lo siguiente:
 también nombrar con contexto extra.
+
     -   Nombre en variabes:                             
             Ej: erroneo                                |          Ej erroneo
                 int d;                                 |          Map<Integer, Integer> employeeList 
                 int m;                                 |                 
                 int y:                                 |                     
-             ------------------------------------------------------------------------------------------------------------------- 
+            ------------------------------------------------------------------------------------------------------------------- 
             Ej: correcto                               |          Ej correcto               
                 int dayOfBirth;                        |          Map<Integer, Integer> employeeMap                       
                 int monthOfBirth;                      |                                                             
                 int yearOfBirth:                       |                                                 
             --------------------------------------------------------------------------------------------------------------------
             Ej: erroneo                                | 
-               private String lstUsedName              |   
+            private String lstUsedName                 |   
             --------------------------------------------------------------------------------------------------------------------   
             Ej correcto                                | 
-               private String leastUsedName            | 
+            private String leastUsedName               | 
 
 En el nombrado de clases se deben poner nombre o conjunto de nombres.
 Los métodos deben de ser nombrados con verbo
@@ -56,7 +57,7 @@ Son muy utiles cuando aprendemos y queremos explicar una parte del código, pero
              ------------------------------------------------------------------------------------------------------------------- 
 
 
-# Principios Solid
+# Principios SOLID
 Es un acrónimo propuesto por Robert C. Martin:
 - **S** ingle Responsability Principle
 - **O** pen-Close Principle
