@@ -74,6 +74,8 @@ Es un acrónimo propuesto por Robert C. Martin:
 
 ##(OCP): Es el principio que establece que el software debe de estar abierto para su extensión y cerrado para su modificación.
          Esto quiere decir que todo que haga mas robusto el software es válido porque incrementa la funcionalidad sólo que este incremento no debe de cambiar el sentido del mismo.
+         Tiene que ver con el acoplamiento, 
+
 
 **(LSP)
          
