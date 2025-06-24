@@ -64,3 +64,16 @@ Es un acrónimo propuesto por Robert C. Martin:
 - **L** iskov substitution Principle
 - **I** nterface Segregation Principle
 - **D** ependency Inversion Principle
+
+
+##(SRP): Un módulo sólo debe de tener una razón de cambio, no se refiere a que una función haga sólo haga algo en especifico
+         sino a que dentro de una clase, que tenga otro objeto como atributo no se haga lógica dentro del contexto de la clase principal
+         porque ya dicha clase tendría dos razones de cambio, la clase por si misma y la de la clase como atributo. En todo caso lo que debe de 
+         suceder es que se genere una tercera clase que contenga esta logica y las clases anteteriores solo queden con una sola razón de cambio.
+
+
+##(OCP): Es el principio que establece que el software debe de estar abierto para su extensión y cerrado para su modificación.
+         Esto quiere decir que todo que haga mas robusto el software es válido porque incrementa la funcionalidad sólo que este incremento no debe de cambiar el sentido del mismo.
+
+**(LSP)
+         
