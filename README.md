@@ -71,11 +71,20 @@ Es un acrónimo propuesto por Robert C. Martin:
          porque ya dicha clase tendría dos razones de cambio, la clase por si misma y la de la clase como atributo. En todo caso lo que debe de 
          suceder es que se genere una tercera clase que contenga esta logica y las clases anteteriores solo queden con una sola razón de cambio.
 
+-   Clases con demasiadas líneas de código.
+-   Cuando se nos indica un cambio tenemos que modificar en muchos ficheros.
+-   No cumplir la separación de capas en la arquitectura de software.
+-   No analizar bien las responsabilidades a la hora de desarrollar software.
+-   Al explicar que hace la clase se enumera más de una responsabilidad.
+-   Tener más de un método público. 
+-   Dificultad a la hora de testear la clase.
+
 
 ##(OCP): Es el principio que establece que el software debe de estar abierto para su extensión y cerrado para su modificación.
          Esto quiere decir que todo que haga mas robusto el software es válido porque incrementa la funcionalidad sólo que este incremento no debe de cambiar el sentido del mismo.
          Tiene que ver con el acoplamiento, 
 
 
-**(LSP)
+**(LSP) Establece si una clase base tiene ciertos comportamientos y propiedades, sus clases derivadas deben de ser capaces de heredar y utilizar 
+        esos comportamientos y propiedades de sin cambiar el correcto funcionamiento del programa.
          
