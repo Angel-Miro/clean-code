@@ -66,7 +66,7 @@ Es un acrónimo propuesto por Robert C. Martin:
 - **D** ependency Inversion Principle
 
 
-##(SRP): Un módulo sólo debe de tener una razón de cambio, no se refiere a que una función haga sólo haga algo en especifico
+**(SRP):** Un módulo sólo debe de tener una razón de cambio, no se refiere a que una función haga sólo haga algo en especifico
          sino a que dentro de una clase, que tenga otro objeto como atributo no se haga lógica dentro del contexto de la clase principal
          porque ya dicha clase tendría dos razones de cambio, la clase por si misma y la de la clase como atributo. En todo caso lo que debe de 
          suceder es que se genere una tercera clase que contenga esta logica y las clases anteteriores solo queden con una sola razón de cambio.
