@@ -80,11 +80,18 @@ Es un acrónimo propuesto por Robert C. Martin:
 -   Dificultad a la hora de testear la clase.
 
 
-##(OCP): Es el principio que establece que el software debe de estar abierto para su extensión y cerrado para su modificación.
+**(OCP): Es el principio que establece que el software debe de estar abierto para su extensión y cerrado para su modificación.
          Esto quiere decir que todo que haga mas robusto el software es válido porque incrementa la funcionalidad sólo que este incremento no debe de cambiar el sentido del mismo.
          Tiene que ver con el acoplamiento, 
 
 
 **(LSP) Establece si una clase base tiene ciertos comportamientos y propiedades, sus clases derivadas deben de ser capaces de heredar y utilizar 
         esos comportamientos y propiedades de sin cambiar el correcto funcionamiento del programa.
+
+
+**(ISP): Una clase nunca debe extender de interfaces con métodos que no usa, por el principio de segregación de interfaces busca que las interfaces sean lo más pequeñas y
+         específicas posible de modo que cada clase solo implemente los métodos que necesita.     
+
+**(DIP): El principio recomienda: Los módulos de alto nivel no deben depender de los módulos de bajo nivel. Ambos deben depender de abstracciones (interfaces).
+         Las abstracciones no deberían depender de los detalles. Los detalles deberían depender de las abstracciones.     
          
